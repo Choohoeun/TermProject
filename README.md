@@ -13,10 +13,10 @@ This project is a Flask web application that uses a T5-based Korean text summari
 ### 1. Requirements
 To run this project, you need the following:
 
-Python 3.8 or higher
-PyTorch
-Transformers
-Flask
+- Python 3.8 or higher
+- PyTorch
+- Transformers
+- Flask
 
 ### 2. Installation
 
@@ -55,17 +55,17 @@ Open your browser and navigate to http://127.0.0.1:5000. Enter your text and cli
 ## Code Structure
 
 ### 1. main.py
-Initializes the T5 model
-Defines functions for text summarization
-Runs the web application
+- Initializes the T5 model
+- Defines functions for text summarization
+- Runs the web application
 
 ### 2. app.py
-Calls summarization functions from main.py to serve a Flask web application
+- Calls summarization functions from main.py to serve a Flask web application
 
 ## Notes
 
-Input documents are limited to a maximum of 512 tokens. Longer texts are truncated automatically.
-Summary generation may take some time depending on model parameters.
+- Input documents are limited to a maximum of 512 tokens. Longer texts are truncated automatically.
+- Summary generation may take some time depending on model parameters.
 
 ## Contribution
 
