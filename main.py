@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from flask import Flask, request, render_template_string
 
-# Flask 애플리케이션 설정
+# Flask 애플리케이션
 app = Flask(__name__)
 
 # T5 모델 로드
